@@ -8,7 +8,7 @@ export default function Header(props) {
   };
 
   return (
-    <div className='w-4/5 mt-10 mx-auto flex flex-col md:flex-row md:justify-between md:items-center dark:bg-dk-bg'>
+    <div className='w-4/5 pt-10 mx-auto flex flex-col md:flex-row md:justify-between md:items-center dark:bg-dk-bg'>
       <div>
         <div className='text-2xl font-bold text-dark-text dark:text-white'>
           Social Media Dashboard
@@ -17,7 +17,7 @@ export default function Header(props) {
           Total Followers: 23,004
         </div>
       </div>
-      <div className='flex justify-between mt-5 border-t-2 border-grey-line md:border-0'>
+      <div className='flex justify-between mt-5 border-t border-grey-line md:border-0'>
         <div className='py-5 font-bold text-grey-text dark:text-dk-text'>
           Dark Mode
         </div>

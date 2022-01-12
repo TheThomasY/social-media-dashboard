@@ -10,7 +10,7 @@ function App() {
   };
 
   return (
-    <div className={'font-Inter' + (darkMode ? ' dark' : '')}>
+    <div className={'font-Inter' + (darkMode ? ' dark bg-dk-bg' : '')}>
       <Header onToggleDarkMode={toggleDarkMode} colourMode={darkMode} />
     </div>
   );
