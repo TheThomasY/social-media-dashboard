@@ -12,7 +12,10 @@ function App() {
 
   return (
     <div className={'font-Inter' + (darkMode ? ' dark bg-dk-bg' : '')}>
-      <Header onToggleDarkMode={toggleDarkMode} colourMode={darkMode} />
+      <div className='w-4/5 mx-auto'>
+        <Header onToggleDarkMode={toggleDarkMode} colourMode={darkMode} />
+        <Followers />
+      </div>
     </div>
   );
 }

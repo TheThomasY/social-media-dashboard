@@ -7,6 +7,10 @@ module.exports = {
   theme: {
     extend: {
       colors: {
+        // Generic
+        'up-green': 'hsl(163, 72%, 41%)',
+        'down-red': 'hsl(356, 69%, 56%)',
+
         // Light scheme
         'grey-text': 'hsl(228, 12%, 44%)',
         'dark-text': 'hsl(230, 17%, 14%)',
