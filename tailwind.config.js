@@ -10,6 +10,11 @@ module.exports = {
         // Generic
         'up-green': 'hsl(163, 72%, 41%)',
         'down-red': 'hsl(356, 69%, 56%)',
+        'fb-blue': 'hsl(208, 92%, 53%)',
+        'twitter-blue': 'hsl(203, 89%, 53%)',
+        'insta-yellow': 'hsl(37, 97%, 70%)',
+        'insta-pink': 'hsl(329, 70%, 58%)',
+        'yt-red': 'hsl(348, 97%, 39%)',
 
         // Light scheme
         'grey-text': 'hsl(228, 12%, 44%)',
