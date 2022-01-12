@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Header from './components/Header';
+import Followers from './components/Followers';
 import './App.css';
 
 function App() {
