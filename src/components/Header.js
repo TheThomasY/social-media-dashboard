@@ -8,7 +8,7 @@ export default function Header(props) {
   };
 
   return (
-    <div className='w-4/5 pt-10 mx-auto flex flex-col md:flex-row md:justify-between md:items-center dark:bg-dk-bg'>
+    <div className='pt-10 flex flex-col lg:flex-row lg:justify-between lg:items-center dark:bg-dk-bg'>
       <div>
         <div className='text-2xl font-bold text-dark-text dark:text-white'>
           Social Media Dashboard
@@ -21,7 +21,7 @@ export default function Header(props) {
         <div className='py-5 font-bold text-grey-text dark:text-dk-text'>
           Dark Mode
         </div>
-        <button onClick={darkModeHandler} className='md:ml-3.5'>
+        <button onClick={darkModeHandler} className='lg:ml-3.5'>
           {props.colourMode ? (
             <BsToggleOn color={'#4dce99'} size={'40px'} />
           ) : (
