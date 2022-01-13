@@ -76,7 +76,7 @@ export default function Overview() {
 
   return (
     <div className='mt-12'>
-      <div className='pb-4 text-2xl font-bold text-dark-text dark:text-white'>
+      <div className='pb-4 text-2xl font-bold text-dark-text dark:text-white transition-colors duration-1000'>
         Overview - Today
       </div>
       <div className='md:grid md:grid-cols-2 md:gap-x-4 xl:grid-cols-4 xl:gap-x-7'>
