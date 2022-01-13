@@ -3,7 +3,7 @@ import React from 'react';
 export default function BigCard(props) {
   return (
     <div
-      className='w-full mt-7 lg:mt-12 py-7 text-center border-t-4 rounded-t-md bg-card-bg dark:bg-dk-card-bg'
+      className='w-full mt-7 lg:mt-12 py-7 text-center border-t-4 rounded-md bg-card-bg dark:bg-dk-card-bg'
       style={{ borderColor: props.socialData.colour }}
       // style={{
       //   borderImage:
@@ -24,7 +24,7 @@ export default function BigCard(props) {
         {props.socialData.followerCount}
       </div>
       <div className='mt-3 text-grey-text dark:text-dk-text tracking-widest'>
-        FOLLOWERS
+        {props.socialData.followerWord}
       </div>
       <div className='mt-7 text-sm font-bold text-up-green'>
         {props.socialData.followerChange} Today
