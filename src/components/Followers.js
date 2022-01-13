@@ -47,7 +47,7 @@ export default function Followers() {
   ];
 
   return (
-    <div className='md:grid md:grid-cols-2 md:gap-4 lg:flex lg:justify-between lg:gap-x-7'>
+    <div className='md:grid md:grid-cols-2 md:gap-4 xl:flex xl:justify-between xl:gap-x-7'>
       {socialsData.map((social) => (
         <BigCard socialData={social} key={social.social} />
       ))}

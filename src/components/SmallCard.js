@@ -10,7 +10,7 @@ export default function SmallCard(props) {
       : 'hsl(356, 69%, 56%)';
 
   return (
-    <div className='w-full mt-4 p-6 rounded-md font-bold bg-card-bg dark:bg-dk-card-bg'>
+    <div className='w-full mt-4 p-6 rounded-md font-bold cursor-pointer hover:bg-card-bg-hover bg-card-bg dark:bg-dk-card-bg dark:hover:bg-dk-card-bg-hover'>
       <div className='mt-1 flex justify-between items-center'>
         <div className='text-grey-text dark:text-dk-text'>
           {props.data.metric}
