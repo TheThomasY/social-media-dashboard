@@ -17,6 +17,8 @@ module.exports = {
         'yt-red': 'hsl(348, 97%, 39%)',
 
         // Light scheme
+        'card-bg': 'hsl(222, 50%, 96%)',
+
         'grey-text': 'hsl(228, 12%, 44%)',
         'dark-text': 'hsl(230, 17%, 14%)',
         'grey-line': '#898c9b',
