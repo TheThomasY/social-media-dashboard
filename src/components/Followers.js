@@ -13,6 +13,7 @@ export default function Followers() {
       icon: iconFb,
       handle: '@nathanf',
       followerCount: '1987',
+      followerWord: 'FOLLOWERS',
       followerChange: '+12',
       colour: 'hsl(208, 92%, 53%)',
     },
@@ -21,6 +22,7 @@ export default function Followers() {
       icon: iconTwitter,
       handle: '@nathanf',
       followerCount: '1044',
+      followerWord: 'FOLLOWERS',
       followerChange: '+99',
       colour: 'hsl(203, 89%, 53%)',
     },
@@ -29,6 +31,7 @@ export default function Followers() {
       icon: iconInsta,
       handle: '@realnathanf',
       followerCount: '11k',
+      followerWord: 'FOLLOWERS',
       followerChange: '+1099',
       colour: 'hsl(37, 97%, 70%)',
     },
@@ -37,13 +40,14 @@ export default function Followers() {
       icon: iconYoutube,
       handle: 'Nathan F.',
       followerCount: '8239',
+      followerWord: 'SUBSCRIBERS',
       followerChange: '-144',
       colour: 'hsl(348, 97%, 39%)',
     },
   ];
 
   return (
-    <div className='lg:flex lg:justify-between lg:gap-x-7'>
+    <div className='md:grid md:grid-cols-2 md:gap-4 lg:flex lg:justify-between lg:gap-x-7'>
       {socialsData.map((social) => (
         <BigCard socialData={social} key={social.social} />
       ))}
