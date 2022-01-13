@@ -11,7 +11,7 @@ export default function BigCard(props) {
 
   return (
     <div
-      className='w-full mt-7 lg:mt-12 py-7 text-center border-t-4 rounded-md bg-card-bg dark:bg-dk-card-bg'
+      className='w-full mt-7 lg:mt-12 py-7 text-center border-t-4 rounded-md cursor-pointer hover:bg-card-bg-hover bg-card-bg dark:bg-dk-card-bg dark:hover:bg-dk-card-bg-hover'
       style={{ borderColor: props.socialData.colour }}
       // style={{
       //   borderImage:

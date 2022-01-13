@@ -5,6 +5,7 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
+    
     extend: {
       colors: {
         // Generic
@@ -18,6 +19,7 @@ module.exports = {
 
         // Light scheme
         'card-bg': 'hsl(222, 50%, 96%)',
+        'card-bg-hover': 'hsl(232, 33%, 91%)',
 
         'grey-text': 'hsl(228, 12%, 44%)',
         'dark-text': 'hsl(230, 17%, 14%)',
@@ -27,6 +29,7 @@ module.exports = {
         'dk-bg': 'hsl(230, 17%, 14%)',
         'dk-pattern-bg': 'hsl(232, 19%, 15%)',
         'dk-card-bg': 'hsl(228, 28%, 20%)',
+        'dk-card-bg-hover': 'hsl(228, 26%, 27%)',
         'dk-text': 'hsl(228, 34%, 66%)',
       },
       fontFamily: {

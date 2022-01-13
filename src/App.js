@@ -12,8 +12,10 @@ function App() {
   };
 
   return (
-    <div className={'font-Inter' + (darkMode ? ' dark bg-dk-bg' : '')}>
-      <div className='w-4/5 max-w-[1120px] mx-auto pb-10 lg:pb-20'>
+    <div
+      className={'min-h-screen font-Inter' + (darkMode ? ' dark bg-dk-bg' : '')}
+    >
+      <div className='w-4/5 max-w-[1120px] mx-auto pb-10 xl:pb-20'>
         <Header onToggleDarkMode={toggleDarkMode} colourMode={darkMode} />
         <Followers />
         <Overview />
