@@ -34,7 +34,7 @@ function App() {
   });
 
   const randomFluc = (number) => {
-    let percentage = Math.floor(Math.random() * 3 + 1);
+    let percentage = Math.floor(Math.random() * 2 + 1);
     return Math.random() > 0.5
       ? Math.ceil(number * (1 + percentage / 100))
       : Math.ceil(number * (1 - percentage / 100));
@@ -51,7 +51,7 @@ function App() {
           yt: randomFluc(prevRandomFollowers.yt),
         };
       });
-    }, 2000);
+    }, 5000);
     return () => clearInterval(interval);
   }, []);
 
