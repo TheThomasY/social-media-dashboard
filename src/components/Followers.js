@@ -15,6 +15,21 @@ export default function Followers(props) {
     }
   }
 
+  // Initial Followers
+  const startingFollowers = {
+    fb: 1987,
+    tw: 1044,
+    in: 11000,
+    yt: 8239,
+  };
+
+  const followerChange = (social, current) => {
+    let difference = current - startingFollowers[social];
+    return difference >= 0
+      ? '+' + difference.toString()
+      : '-' + difference.toString();
+  };
+
   let socialsData = [
     {
       social: 'facebook',
@@ -22,7 +37,7 @@ export default function Followers(props) {
       handle: '@nathanf',
       followerCount: numFormatter(props.followers.fb),
       followerWord: 'FOLLOWERS',
-      followerChange: '+12',
+      followerChange: followerChange('fb', props.followers.fb),
       colour: 'hsl(208, 92%, 53%)',
     },
     {
@@ -31,7 +46,7 @@ export default function Followers(props) {
       handle: '@nathanf',
       followerCount: numFormatter(props.followers.tw),
       followerWord: 'FOLLOWERS',
-      followerChange: '+99',
+      followerChange: followerChange('tw', props.followers.tw),
       colour: 'hsl(203, 89%, 53%)',
     },
     {
@@ -40,7 +55,7 @@ export default function Followers(props) {
       handle: '@realnathanf',
       followerCount: numFormatter(props.followers.in),
       followerWord: 'FOLLOWERS',
-      followerChange: '+1099',
+      followerChange: followerChange('in', props.followers.in),
       colour: 'hsl(37, 97%, 70%)',
     },
     {
@@ -49,7 +64,7 @@ export default function Followers(props) {
       handle: 'Nathan F.',
       followerCount: numFormatter(props.followers.yt),
       followerWord: 'SUBSCRIBERS',
-      followerChange: '-144',
+      followerChange: followerChange('yt', props.followers.yt),
       colour: 'hsl(348, 97%, 39%)',
     },
   ];
