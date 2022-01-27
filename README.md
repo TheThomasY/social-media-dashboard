@@ -25,9 +25,7 @@ I built this using React and styled it with Tailwind CSS.
 
 ## Changelog
 
-- **[1.0] 17/01/22 Deployment**:
-
-Site deployed to GitHub Pages
+- **[1.0] 17/01/22 Deployment**:Site deployed to GitHub Pages
 
 ## Author 🧑
 
