@@ -9,7 +9,7 @@ This app was built with React and styled with Tailwind CSS.
 ## Screenshots 📷
 
 <p float="left">
-  <img src="./screenshots/screenshot-desktop.png">
+  <img src="./screenshots/screenshot-GIF-desktop.gif">
 <!--   <img src="./screenshots/screenshot-mobile.png" width="300px"> -->
 </p>
 
