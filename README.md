@@ -1,7 +1,6 @@
 <h1 align="center">Social Media Dashboard built with React</h1>
 
-An example of dashboard UI designed to present social media follower metrics. It has a toggle that allows you to switch between light and dark mode.
-I built this using React and styled it with Tailwind CSS.
+An example of dashboard UI designed to present social media follower metrics. Follower counts for the social medias fluctuate randomly around their starting value to simulate real change. It has a toggle that allows you to switch between light and dark mode. I built this using React and styled it with Tailwind CSS.
 
 ## Links 🌟
 
