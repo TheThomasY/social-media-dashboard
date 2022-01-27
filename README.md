@@ -1,6 +1,7 @@
 <h1 align="center">Social Media Dashboard built with React</h1>
 
-This app was built with React and styled with Tailwind CSS.
+An example of dashboard UI designed to present social media follower metrics. It has a toggle that allows you to switch between light and dark mode.
+I built this using React and styled it with Tailwind CSS.
 
 ## Links 🌟
 
@@ -15,8 +16,8 @@ This app was built with React and styled with Tailwind CSS.
 
 ## Built With 🛠
 
-- React (create-react-app)
-- Tailwind CSS
+- [React JS](https://reactjs.org/)
+- [Tailwind CSS (v3.0)](https://tailwindcss.com/)
 
 ## Future Updates 🎁
 
