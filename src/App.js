@@ -1,10 +1,14 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Header from './components/Header';
 import Followers from './components/Followers';
 import Overview from './components/Overview';
 import './App.css';
 
 function App() {
+  useEffect(() => {
+    document.title = 'Dashboard';
+  }, []);
+
   const [darkMode, setDarkMode] = useState(false);
 
   const toggleDarkMode = () => {
