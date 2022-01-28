@@ -35,7 +35,7 @@ function App() {
 
   const randomFluc = (number) => {
     let percentage = Math.floor(Math.random() * 3 + 1);
-    return Math.random() > 0.5
+    return Math.random() > 0.48
       ? Math.ceil(number * (1 + percentage / 100))
       : Math.ceil(number * (1 - percentage / 100));
   };
