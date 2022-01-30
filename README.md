@@ -20,7 +20,8 @@ An example of dashboard UI designed to present social media follower metrics. Fo
 
 ## Future Updates 🎁
 
-- [ ] Link to an API to get dynamic updates
+- [ ] Link to an API to get dynamic updates.
+- [ ] Detect user's browser preference to pre-select light/dark mode.
 
 ## Changelog
 
