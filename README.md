@@ -27,7 +27,8 @@ An example of dashboard UI designed to present social media follower metrics. Fo
 - **[1.0.0] 17/01/22 Deployment**: Site deployed to GitHub Pages
 - **[1.0.1] 27/01/22 Minor fixes**: Title added
 ---------------------------------------------------------------------
-- **[1.1.0] 27/01/22 Random Data**: Follower counts now fluctuate around a starting value and that difference is presented
+- **[1.1.0] 27/01/22 Random Data**: Follower counts now fluctuate around a starting value and that difference is presented.
+- **[1.1.1] 30/01/22 Fix**: Reduced follower fluctuation size and rate. 
 
 ## Author 🧑
 
